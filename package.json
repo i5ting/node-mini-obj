@@ -1,0 +1,22 @@
+{
+  "name": "node-mini-obj",
+  "version": "1.0.0",
+  "description": "node-mini-obj =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i5ting/node-mini-obj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/node-mini-obj/issues"
+  },
+  "homepage": "https://github.com/i5ting/node-mini-obj",
+  "dependencies": {
+    "mocha": "^2.0.1"
+  }
+}
