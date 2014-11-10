@@ -1,4 +1,4 @@
-exports.Class = function(name, src) { 
+module.exports = global.Class = function(name, src) { 
 	src.constructor.prototype = src; 
-	window[name] = src.constructor; 
+	global[name] = src.constructor; 
 }; 

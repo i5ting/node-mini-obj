@@ -1,9 +1,3 @@
-node-mini-obj
-=============
-
-
-
-```
 var $ = require('./index')
 
 $('Person',{
@@ -17,4 +11,3 @@ $('Person',{
 
 var p = new Person('alfred sang');
 p.say();
-```
