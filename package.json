@@ -1,9 +1,10 @@
 {
   "name": "node-mini-obj",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "node-mini-obj =============",
   "main": "index.js",
   "scripts": {
+		"start": "npm publish .",
     "test": "node test"
   },
   "repository": {
