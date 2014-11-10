@@ -1,6 +1,14 @@
 node-mini-obj
 =============
 
+[![npm version](https://badge.fury.io/js/node-mini-obj.svg)](http://badge.fury.io/js/node-mini-obj)
+
+## Install
+
+```
+npm install --save node-mini-obj
+```
+
 
 ## Usage
 
