@@ -19,6 +19,7 @@
   "homepage": "https://github.com/i5ting/node-mini-obj",
   "dependencies": {
     "compute-reverse": "^1.0.1",
+    "extend": "^2.0.0",
     "inherits2": "0.0.1",
     "lodash": "^2.4.1",
     "mocha": "^2.0.1"
