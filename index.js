@@ -48,9 +48,6 @@ module.exports = global.Class = function() {
 	
 	var obj = mo(o);
 	var src = arguments[arguments.length - 1];
-
-	// console.log(obj);
 	src.constructor.prototype = obj; 
 	global[arguments[0]] = obj.constructor; 
-	
 }; 
