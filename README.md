@@ -14,6 +14,23 @@ npm install --save node-mini-obj
 
 ### 基本用法
 
+没有构造函数的情况
+
+```
+$('Person1',{
+	say: function(){
+		console.log('hello ' + this.name);
+	}
+})
+
+var p1 = new Person1();
+p1.name = 'i5ting'
+console.log(p1);
+p1.say();
+```
+
+有构造函数的情况
+
 ```
 var $ = require('./index')
 
@@ -29,6 +46,8 @@ $('Person',{
 var p = new Person('alfred sang');
 p.say();
 ```
+
+todo：这里考虑一下要不要用init代替constructor
 
 ### 测试1：plain object继承
 
