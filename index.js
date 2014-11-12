@@ -1,10 +1,3 @@
-var util = require("util");
-var inherits = require('inherits2');
-var reverse = require( 'compute-reverse' );
-var _ = require('lodash');
-// var extend = require("extend");
-
-
 module.exports = global.Class = function() { 
 	function dump(obj){   
 			console.log('--------------------------\n');  
