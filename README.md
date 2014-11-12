@@ -47,8 +47,6 @@ var p = new Person('alfred sang');
 p.say();
 ```
 
-todo：这里考虑一下要不要用init代替constructor
-
 ### 测试1：plain object继承
 
 ```
