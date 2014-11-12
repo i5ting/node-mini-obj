@@ -9,8 +9,41 @@ node-mini-obj
 npm install --save node-mini-obj
 ```
 
+## 第一版
 
-## Usage
+### 源码
+
+```
+module.exports = global.Class = function(name, src) { 
+	src.constructor.prototype = src; 
+	global[name] = src.constructor; 
+}; 
+```
+
+### 用法
+
+```
+var $ = require('./index')
+
+$('Person',{
+    constructor: function(name) { 
+        this.name = name;
+    }, 
+    say: function(){
+        console.log('hello ' + this.name);
+    }
+})
+
+var p = new Person('alfred sang');
+p.say();
+```
+
+
+还是蛮舒服的吧？
+
+## 第二版
+
+这个版本主要增加了继承功能，具体用法如下
 
 ### 基本用法
 
@@ -161,3 +194,10 @@ or
 
 hello alfred sang
 ```
+
+## TODO
+
+- 使用init作为构造函数
+- 使用this._super调用父类方法
+- 完善的继承链
+
