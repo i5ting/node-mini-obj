@@ -74,9 +74,10 @@ function main(){
 		aa:function(){
 			console.log('aa in 2');
 			//todo 
-			_super.aa();
+			// _super.aa();
 		},
 		bb:function(){
+			this.bp();
 			console.log('bb in 2');
 		}
 	})

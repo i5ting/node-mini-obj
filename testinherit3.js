@@ -5,7 +5,7 @@ var Base = function(name){
 }
 
 Base.prototype.hello = function(){
-	
+	console.log('---Base.prototype.hello----');
 }
 
 var base = new Base('a person');

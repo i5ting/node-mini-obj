@@ -10,4 +10,5 @@ $('Person',{
 })
 
 var p = new Person('alfred sang');
+console.log(p);
 p.say();

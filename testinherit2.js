@@ -23,3 +23,4 @@ $('Person',base,{
 
 var p = new Person('alfred sang');
 p.say();
+p.hello();
