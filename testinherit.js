@@ -4,7 +4,8 @@ $('Person',{
 	hello:function(){
 		console.log('hello');
 	}
-},{
+},
+{
 	constructor: function(name) { 
 		this.name = name;
 	}, 
