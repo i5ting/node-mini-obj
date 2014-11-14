@@ -1,6 +1,6 @@
 {
   "name": "node-mini-obj",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "node-mini-obj :Simple inherit helper with named constructor",
 	"keywords": ["mini-obj", "obj", "oo", "object","inherit"],
   "main": "index.js",
