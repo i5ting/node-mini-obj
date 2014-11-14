@@ -1,6 +1,6 @@
 {
   "name": "node-mini-obj",
-  "version": "0.0.2",
+  "version": "1.2.2",
   "description": "node-mini-obj =============",
 	"keywords": ["mini-obj", "obj", "oo", "object","inherit"],
   "main": "index.js",
