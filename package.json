@@ -2,6 +2,7 @@
   "name": "node-mini-obj",
   "version": "0.0.2",
   "description": "node-mini-obj =============",
+	"keywords": ["mini-obj", "obj", "oo", "object","inherit"],
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
@@ -21,3 +22,4 @@
     "mocha": "^2.0.1"
   }
 }
+mini-obj
