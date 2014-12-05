@@ -13,9 +13,8 @@
   "scripts": {
     "start": "npm publish .",
     "test": "node test",
-    "build": "npm run browserify && npm run dist",
-    "browserify": "node_modules/.bin/browserify index.js -o dist/miniobj.js",
-    "dist": "node_modules/.bin/uglifyjs dist/miniobj.js -o dist/miniobj.min.js"
+    "build": "rm -rf dist/*.js && npm run dist",
+    "dist": "node_modules/.bin/browserify index.js -o dist/miniobj.js && node_modules/.bin/uglifyjs dist/miniobj.js -o dist/miniobj.min.js"
   },
   "repository": {
     "type": "git",

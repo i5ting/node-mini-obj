@@ -1,4 +1,7 @@
 module.exports = global.Class = function() { 
+	this.version = "1.2.5";
+	this.author = "i5ting@126.com";
+	
 	function dump(obj){   
 			console.log('--------------------------\n');  
 	    var names="";       

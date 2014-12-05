@@ -9,6 +9,13 @@ node-mini-obj
 npm install --save node-mini-obj
 ```
 
+## history
+
+- v1.2.6（todo）
+	使用mocha重构test
+- v1.2.5
+	修改代码内版本号和作者，以及dist
+
 ## 第一版
 
 ### 源码
