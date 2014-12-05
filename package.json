@@ -1,12 +1,21 @@
 {
   "name": "node-mini-obj",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "node-mini-obj :Simple inherit helper with named constructor",
-	"keywords": ["mini-obj", "obj", "oo", "object","inherit"],
+  "keywords": [
+    "mini-obj",
+    "obj",
+    "oo",
+    "object",
+    "inherit"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
-    "test": "node test"
+    "test": "node test",
+    "build": "npm run browserify && npm run dist",
+    "browserify": "node_modules/.bin/browserify index.js -o dist/miniobj.js",
+    "dist": "node_modules/.bin/uglifyjs dist/miniobj.js -o dist/miniobj.min.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +27,10 @@
     "url": "https://github.com/i5ting/node-mini-obj/issues"
   },
   "homepage": "https://github.com/i5ting/node-mini-obj",
-  "dependencies": {
-    "mocha": "^2.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^7.0.0",
+    "mocha": "^2.0.1",
+    "uglify-js": "^2.4.15"
   }
 }
