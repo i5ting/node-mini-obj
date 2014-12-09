@@ -1,6 +1,6 @@
 
 module.exports = global.Class = function( ) { 
-	this.version = "1.2.5";
+	this.version = "1.3.0";
 	this.author = "i5ting@126.com";
 	this.debug = false;
 	
