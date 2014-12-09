@@ -11,8 +11,8 @@ npm install --save node-mini-obj
 
 ## history
 
-- v1.3.0（todo）
-	
+- v1.3.0
+	之前版本的extend会污染this对象，已重构
 - v1.2.6（todo）
 	使用mocha重构test
 - v1.2.5
