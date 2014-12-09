@@ -1,4 +1,4 @@
-var $ = require('./index')
+var $ = require('../index')
 
 $('PersonBase',{
 	constructor: function(name) { 

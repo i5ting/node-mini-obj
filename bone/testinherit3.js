@@ -1,4 +1,4 @@
-var $ = require('./index')
+var $ = require('../index')
 
 var Base = function(name){
 	this.name = name;

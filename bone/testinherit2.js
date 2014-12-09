@@ -1,27 +1,26 @@
-var $ = require('./index')
+var $ = require('../index')
 
-$('Person',{
+$('Base',{
 	constructor: function(name) { 
-		console.log('---1----');
 		this.name = name;
-	}, 
-	bbb:'bbb',
+	},
 	hello:function(){
 		console.log('hello');
 	}
-},
-{
+})
+
+var base = new Base('a person');
+
+$('Person',base,{
 	constructor: function(name) { 
-		console.log('---2----');
 		this.name = name;
-		
 	}, 
 	say: function(){
 		console.log('hello ' + this.name);
-		console.log(this.bbb);
+		this.hello();
 	}
 })
 
 var p = new Person('alfred sang');
-p.hello()
 p.say();
+p.hello();

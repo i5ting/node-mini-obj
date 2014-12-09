@@ -11,6 +11,8 @@ npm install --save node-mini-obj
 
 ## history
 
+- v1.3.0（todo）
+	
 - v1.2.6（todo）
 	使用mocha重构test
 - v1.2.5

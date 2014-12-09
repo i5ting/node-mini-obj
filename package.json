@@ -12,7 +12,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
-    "test": "node test",
+		"test": "./node_modules/.bin/mocha -u tdd",
     "build": "rm -rf dist/*.js && npm run dist",
     "dist": "node_modules/.bin/browserify index.js -o dist/miniobj.js && node_modules/.bin/uglifyjs dist/miniobj.js -o dist/miniobj.min.js"
   },
@@ -29,7 +29,11 @@
   "dependencies": {},
   "devDependencies": {
     "browserify": "^7.0.0",
+    "chai": "^1.10.0",
     "mocha": "^2.0.1",
-    "uglify-js": "^2.4.15"
+    "sinon": "^1.12.1",
+    "supertest": "^0.15.0",
+    "uglify-js": "^2.4.15",
+    "zombie": "^2.5.0"
   }
 }
